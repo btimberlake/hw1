@@ -1,17 +1,20 @@
 /* Your CSS code goes in this file. */
 
-/* h1 { font-family: "Arial" } */
-/* h1 { font-family: "Times New Roman" } */
-
 /* h1 {
   border: solid 10px black;
   margin: 100px;
   padding: 50px;
 } */
 
-menu {
-  max-width: 10%
+.menu {
+  border: solid 2px gray;
+  padding: 10px;
+  max-width: 30%
 }
+
+h1 { font-family: "Arial"; color: black; font-size: 28px; }
+h2 { font-family: "Arial"; color: black; font-size: 22px; font-style: italic; }
+h3 { font-family: "Arial"; color: black; font-size: 16px; text-decoration: underline;}
 
 body {
   font-family: "Arial";
@@ -19,9 +22,7 @@ body {
   margin: 20px auto;
 }
 
-/* h1 { color: red;  border: solid 5px black;   } */
-/* .important { background-color: yellow; font-size: 22px; } */
-
+.important { color: red; font-size: 16px; }
 .quote { color: blue; }
 
 div {
@@ -31,10 +32,8 @@ div {
 }
 
 span {
-  border: solid 2px gray;
-  padding: 10px;
   display: inline-block;
-  max-width: 30%;
+  /*max-width: 30%;*/
 }
 
 img {
