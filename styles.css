@@ -9,6 +9,10 @@
   padding: 50px;
 } */
 
+menu {
+  max-width: 10%
+}
+
 body {
   font-family: "Arial";
   width: 960px;
@@ -20,12 +24,18 @@ body {
 /* .important { background-color: yellow; font-size: 22px; } */
 
 div {
-  border: solid 5px gray;
+  border: solid 5px white;
   padding: 20px;
   width: 96%;
 }
 
-span { border: solid 2px gray;
+span {
+  border: solid 2px gray;
   padding: 20px;
-  width: 32%;
+  display: inline-block;
+  width: 28%;
+}
+
+img {
+  max-width: 90%
 }
