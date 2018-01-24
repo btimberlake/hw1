@@ -19,6 +19,13 @@ body {
 
 /* .important { background-color: yellow; font-size: 22px; } */
 
-div { border: solid 5px gray;
+div {
+  border: solid 5px gray;
   padding: 20px;
+  width: 96%;
+}
+
+span { border: solid 2px gray;
+  padding: 20px;
+  width: 32%;
 }
