@@ -25,14 +25,14 @@ body {
 div {
   border: solid 5px white;
   padding: 20px;
-  width: 96%;
+  max-width: 90%;
 }
 
 span {
   border: solid 2px gray;
   padding: 10px;
   display: inline-block;
-  width: 28%;
+  max-width: 30%;
 }
 
 img {
