@@ -8,7 +8,7 @@
 
 h1 { font-family: "Arial"; color: black; font-size: 28px; }
 h2 { font-family: "Arial"; color: black; font-size: 22px; font-style: italic; }
-h3 { font-family: "Arial"; color: black; font-size: 16px; text-decoration: underline;}
+h3 { font-family: "Arial"; color: black; font-size: 16px; text-decoration: underline; max-height: 80%;}
 
 body {
   font-family: "Arial";
@@ -35,8 +35,7 @@ p {
 }
 
 img {
-  max-width: 50%
-  max-height: 80%;
+  max-width: 90%
 }
 
 .important { color: red; font-size: 16px; }
