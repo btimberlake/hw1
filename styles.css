@@ -38,6 +38,10 @@ img {
   max-width: 90%
 }
 
+.pic {
+  max-height: 800px
+}
+
 .important { color: red; font-size: 16px; }
 .quote { color: blue; }
 .menu {
